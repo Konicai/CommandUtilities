@@ -1,0 +1,8 @@
+main: me.konicai.commandsconsoleonly.CommandsConsoleOnly
+name: ${project.name}
+version: ${project.version}
+description: ${project.description}
+author: Konicai
+api-version: 1.16
+commands: {}
+permissions: {}

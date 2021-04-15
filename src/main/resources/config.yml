@@ -1,0 +1,7 @@
+console-only-commands:
+  - op
+  - deop
+  - stop
+  - save-on
+  - save-off
+  - save-all
