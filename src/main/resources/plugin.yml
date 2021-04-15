@@ -4,5 +4,7 @@ version: ${project.version}
 description: ${project.description}
 author: Konicai
 api-version: 1.16
-commands: {}
-permissions: {}
+commands:
+  cconly:
+    description: Manage CommandConsoleOnly
+    usage: "Usage: /cconly [ reload | enable | disable ]"

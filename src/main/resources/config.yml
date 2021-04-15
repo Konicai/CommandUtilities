@@ -1,3 +1,4 @@
+enable-restrictions: true
 console-only-commands:
   - op
   - deop
