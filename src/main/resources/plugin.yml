@@ -1,10 +1,10 @@
-main: me.konicai.commandsconsoleonly.CommandsConsoleOnly
+main: me.konicai.commandutilities.CommandUtilities
 name: ${project.name}
 version: ${project.version}
 description: ${project.description}
 author: Konicai
-api-version: 1.16
+api-version: 1.13
 commands:
-  cconly:
-    description: Manage CommandConsoleOnly
-    usage: "Usage: /cconly [ reload | enable | disable ]"
+  commandutil:
+    description: Manage CommandUtilities
+    usage: "Usage: /commandutil [ reload | get <config option> | set <config option> <value> ]"

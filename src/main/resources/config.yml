@@ -1,8 +1,17 @@
-enable-restrictions: true
 console-only-commands:
-  - op
-  - deop
-  - stop
-  - save-on
-  - save-off
-  - save-all
+  enable: true
+  log-fails: false
+  restricted-commands:
+    - op
+    - deop
+    - stop
+    - save-on
+    - save-off
+    - save-all
+command-blocks:
+  rate-limit: false
+  log-fails: true
+  # The command counter will be reset after this amount of milliseconds after the last command was run successfully.
+  memory-length: 1000
+  # The maximum amount of commands that can be ran in the given memory length.
+  command-threshold: 10
